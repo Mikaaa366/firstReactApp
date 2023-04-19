@@ -1,0 +1,13 @@
+@import '../../styles/settings.scss';
+
+.columnForm {
+    padding: 10px;
+    text-align: center;
+  }
+  
+    
+  @media (max-width: 700px) {
+    .columnForm {
+      flex-direction: column;
+    }
+  }
